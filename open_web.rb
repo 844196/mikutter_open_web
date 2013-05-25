@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # webでプロフィールを開く
 
-Plugin.create(:open_favstar) do
-  command(:open_favstar,
+Plugin.create(:open_web) do
+  command(:open_web,
           name: 'こいつのプロフィールをwebで見る',
           condition: Plugin::Command[:HasMessage],
           visible: true,
