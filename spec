@@ -1,11 +1,11 @@
 ---
-slug: :open_favstar
+slug: :open_web
 depends:
-  mikutter: 0.2.0.863
+  mikutter: 0.2.2.1230
   plugin:
   - gtk
   - command
 version: '1.0'
-author: toshi_a
-name: こいつのfavstarを見る
-description: コンテキストメニューから、そのユーザのfavstarページを見ることができる
+author: lindwurm
+name: こいつのwebを見る
+description: コンテキストメニューから、そのユーザのプロフィールページを見ることができる
