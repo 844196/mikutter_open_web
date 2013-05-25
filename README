@@ -1,4 +1,6 @@
-open favstar
+mikutter-open-web
 
-favstarのページを開くmikutterコマンド「こいつのfavstarを開く」を追加します。
-mikutter.rbがあるディレクトリにある plugin/ ディレクトリ以下にこのリポジトリをチェックアウトしてください
+Twitter(web)でユーザーページを開くmikutterコマンド「こいつのプロフィールをwebで見る」を追加します。
+mikutter.rbがあるディレクトリにある plugin/ ディレクトリ以下にこのリポジトリをチェックアウトしてください。
+
+forked from toshia/mikutter-open-favstar
