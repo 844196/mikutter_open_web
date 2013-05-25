@@ -1,6 +1,7 @@
 mikutter-open-web
 
-Twitter(web)でユーザーページを開くmikutterコマンド「こいつのプロフィールをwebで見る」を追加します。
+Twitter(web)でユーザーページを開くmikutterコマンド「こいつのプロフィールをwebで見る(open_web)」及び
+「このツイートをwebで見る(open_tweet)」を追加します。
 mikutter.rbがあるディレクトリにある plugin/ ディレクトリ以下にこのリポジトリをチェックアウトしてください。
 
 forked from toshia/mikutter-open-favstar
