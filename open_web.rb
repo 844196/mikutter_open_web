@@ -4,7 +4,7 @@
 Plugin.create(:open_favstar) do
   command(:open_favstar,
           name: 'こいつのプロフィールをwebで見る',
-          condition: Plugin::Command[:HasMessage],
+          condition: Plugin::Command[:HashMessage],
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
