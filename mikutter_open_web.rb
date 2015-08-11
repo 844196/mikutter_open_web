@@ -4,7 +4,8 @@
 Plugin.create(:open_tweet) do
   command(:open_tweet,
           name: 'このツイートをwebで見る',
-          condition: Plugin::Command[:HasMessage],
+          condition: lambda {|opt| true },
+          icon: Skin.get('forward.png'),
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
